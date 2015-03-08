@@ -1,0 +1,38 @@
+{
+    "name": "diablo3-web/d3-calculator-api",
+    "description": "Diablo 3 Calculator API",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Angel",
+            "email": "angel.blizzard.mvp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "D3W\\Calculator\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "D3W\\Calculator\\" : "tests"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

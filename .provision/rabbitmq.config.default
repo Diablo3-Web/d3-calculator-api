@@ -1,0 +1,25 @@
+% This is default config file
+
+% Template Path: rabbitmq/templates/rabbitmq.config
+
+[
+
+  {rabbit, [
+
+    {loopback_users, []},
+
+    {default_user, <<"guest">>},
+
+    {default_pass, <<"guest">>}
+
+  ]},
+
+  {kernel, [
+
+    
+
+  ]}
+
+].
+
+% EOF
