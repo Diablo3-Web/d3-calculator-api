@@ -1,2 +1,2 @@
 # d3-calculator-api
-Diablo 3 bundle for calculator API
+API bundle for Diablo 3 calculator
