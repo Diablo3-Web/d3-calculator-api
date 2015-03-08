@@ -12,7 +12,12 @@
  * @link      https://github.com/Diablo3-Web
  */
 
-namespace D3W\Calculator\Dto;
+namespace D3W\Calculator\Dto\Item;
+
+use D3W\Calculator\Dto\Item;
+use D3W\Calculator\Dto\Affix;
+use D3W\Calculator\Dto\Slot;
+use D3W\Calculator\Dto\Gem;
 
 /**
  * Base armor entity.

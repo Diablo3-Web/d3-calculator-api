@@ -12,9 +12,9 @@
  * @link      https://github.com/Diablo3-Web
  */
 
-namespace D3W\Calculator\Dto\Armor;
+namespace D3W\Calculator\Dto\Item\Armor;
 
-use D3W\Calculator\Dto\Armor;
+use D3W\Calculator\Dto\Item\Armor;
 use D3W\Calculator\Dto\Gem;
 use D3W\Calculator\Dto\Affix;
 
@@ -61,7 +61,7 @@ class Helm extends Armor
     )
     {
         $slots          = [new \D3W\Calculator\Dto\Slot\Helm()];
-        $allowedAffixes = [new Affix\CritChance(null)];
+        $allowedAffixes = [new Affix\CritChance\Helm(null)];
         parent::__construct($name, $slots, $baseLevel, $durability, $armor, $requiredLevel, $gems, $allowedAffixes, $affixes, $accountBound, $season);
     }
 }
